@@ -10,29 +10,85 @@ h1 {
     color: #373fff;
 }
 
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid #800080;
+}
+
+.collapse {
+    border-collapse: collapse;
+}
+
 tbody>tr {
     background-image: url(./assets/noise.png);
 }
 
 tr:nth-child(even) {
     background-color: #e495e4;
+    height: 50px;
 }
 
 tr:nth-child(odd) {
     background-color: #ff33cc;
+    height: 50px;
 }
 
 thead>tr,
 tfoot>tr {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
-    url(./assets/leopardskin.jpg);
+    background-image: url(./assets/leopardskin.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
     font-family: 'Rock Salt', cursive;
     color: white;
     text-align: center;
 }
 
+.row-band {
+    width: 35%;
+    text-shadow: 1px 1px 2px black;
+    border: 3px solid #800080;
+    height: 60px;
+}
+
+.row-year {
+    width: 20%;
+    text-shadow: 1px 1px 2px black;
+    border: 3px solid #800080;
+}
+
+.row-albums {
+    width: 10%;
+    text-shadow: 1px 1px 2px black;
+    border: 3px solid #800080;
+}
+
+.row-song {
+    width: 35%;
+    text-shadow: 1px 1px 2px black;
+    border: 3px solid #800080;
+}
+
 tbody {
     font-family: 'Helvetica';
     text-align: center;
+    color: black;
+}
+
+.totalbum {
+    text-align: right;
+    text-shadow: 1px 1px 2px black;
+    border: 3px solid #800080;
+    height: 60px;
+}
+
+.albumno {
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+    border: 3px solid #800080;
+}
+
+.summary {
+    text-align: right;
+    font-family: 'Rock Salt', cursive;
     color: black;
 }

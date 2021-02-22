@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <table>
+    <table class="collapse">
         <thead>
             <tr>
-                <td>Band</td>
-                <td>Year Formed</td>
-                <td>No. of Albums</td>
-                <td>Most Famous Song</td>
+                <td class="row-1 row-band">Band</td>
+                <td class="row-1 row-year">Year Formed</td>
+                <td class="row-1 row-albums">No. of Albums</td>
+                <td class="row-1 row-song">Most Famous Song</td>
             </tr>
         </thead>
         <tbody>
@@ -77,13 +77,14 @@
         </tbody>
         <tfoot>
             <tr>
-                <td></td>
-                <td>Total Albums</td>
-                <td>77</td>
-                <td></td>
+                <td colspan="2" class="totalbum">Total Albums</td>
+                <td colspan="2" class="albumno">77</td>
+
             </tr>
         </tfoot>
     </table>
+
+    <p class="summary">A summary of the UK's most famous punk bands</p>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
